@@ -12,7 +12,7 @@ type cellProps={
 }
 const cell =({go,setGo,id,cells,setCells,cell,winMsg}:cellProps)=>{
 
-    const handleClick =(e)=>{
+    const handleClick =()=>{
         if(winMsg){
             return
         }
